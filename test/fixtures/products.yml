@@ -3,11 +3,13 @@
 one:
   name: MyString
   price: 9.99
+  description: MyText
   discount: 9.99
-  stock_quantity: 1
+  stock: 1
 
 two:
   name: MyString
   price: 9.99
+  description: MyText
   discount: 9.99
-  stock_quantity: 1
+  stock: 1

@@ -22,13 +22,18 @@
   </div>
 
   <div>
+    <%= form.label :description, style: "display: block" %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div>
     <%= form.label :discount, style: "display: block" %>
     <%= form.text_field :discount %>
   </div>
 
   <div>
-    <%= form.label :stock_quantity, style: "display: block" %>
-    <%= form.number_field :stock_quantity %>
+    <%= form.label :stock, style: "display: block" %>
+    <%= form.number_field :stock %>
   </div>
 
   <div>
